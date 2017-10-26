@@ -7,23 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AC394FC91F9F0CD50080CBA9 /* NotificationTimeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC394FC81F9F0CD50080CBA9 /* NotificationTimeViewController.swift */; };
 		AC94AC2F1F9EDC5400C8DB51 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC94AC2E1F9EDC5400C8DB51 /* AppDelegate.swift */; };
-		AC94AC311F9EDC5400C8DB51 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC94AC301F9EDC5400C8DB51 /* ViewController.swift */; };
 		AC94AC341F9EDC5400C8DB51 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC94AC321F9EDC5400C8DB51 /* Main.storyboard */; };
 		AC94AC371F9EDC5400C8DB51 /* EasyD_Day.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AC94AC351F9EDC5400C8DB51 /* EasyD_Day.xcdatamodeld */; };
 		AC94AC391F9EDC5400C8DB51 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC94AC381F9EDC5400C8DB51 /* Assets.xcassets */; };
 		AC94AC3C1F9EDC5400C8DB51 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC94AC3A1F9EDC5400C8DB51 /* LaunchScreen.storyboard */; };
+		AC94AC441F9EDDB600C8DB51 /* DDayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC94AC431F9EDDB600C8DB51 /* DDayViewController.swift */; };
+		AC94AC461F9EE14100C8DB51 /* DDayAddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC94AC451F9EE14100C8DB51 /* DDayAddViewController.swift */; };
+		AC94AC481F9EE1A800C8DB51 /* DDayCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC94AC471F9EE1A800C8DB51 /* DDayCell.swift */; };
+		AC94AC4A1F9EE1B300C8DB51 /* DDayData.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC94AC491F9EE1B300C8DB51 /* DDayData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AC394FC81F9F0CD50080CBA9 /* NotificationTimeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationTimeViewController.swift; sourceTree = "<group>"; };
 		AC94AC2B1F9EDC5400C8DB51 /* EasyD-Day.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "EasyD-Day.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC94AC2E1F9EDC5400C8DB51 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		AC94AC301F9EDC5400C8DB51 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		AC94AC331F9EDC5400C8DB51 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AC94AC361F9EDC5400C8DB51 /* EasyD_Day.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = EasyD_Day.xcdatamodel; sourceTree = "<group>"; };
 		AC94AC381F9EDC5400C8DB51 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AC94AC3B1F9EDC5400C8DB51 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AC94AC3D1F9EDC5400C8DB51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC94AC431F9EDDB600C8DB51 /* DDayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DDayViewController.swift; sourceTree = "<group>"; };
+		AC94AC451F9EE14100C8DB51 /* DDayAddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DDayAddViewController.swift; sourceTree = "<group>"; };
+		AC94AC471F9EE1A800C8DB51 /* DDayCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DDayCell.swift; sourceTree = "<group>"; };
+		AC94AC491F9EE1B300C8DB51 /* DDayData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DDayData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,8 +65,12 @@
 			isa = PBXGroup;
 			children = (
 				AC94AC2E1F9EDC5400C8DB51 /* AppDelegate.swift */,
-				AC94AC301F9EDC5400C8DB51 /* ViewController.swift */,
 				AC94AC321F9EDC5400C8DB51 /* Main.storyboard */,
+				AC394FC81F9F0CD50080CBA9 /* NotificationTimeViewController.swift */,
+				AC94AC451F9EE14100C8DB51 /* DDayAddViewController.swift */,
+				AC94AC471F9EE1A800C8DB51 /* DDayCell.swift */,
+				AC94AC491F9EE1B300C8DB51 /* DDayData.swift */,
+				AC94AC431F9EDDB600C8DB51 /* DDayViewController.swift */,
 				AC94AC381F9EDC5400C8DB51 /* Assets.xcassets */,
 				AC94AC3A1F9EDC5400C8DB51 /* LaunchScreen.storyboard */,
 				AC94AC3D1F9EDC5400C8DB51 /* Info.plist */,
@@ -139,9 +151,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AC94AC311F9EDC5400C8DB51 /* ViewController.swift in Sources */,
+				AC94AC481F9EE1A800C8DB51 /* DDayCell.swift in Sources */,
+				AC94AC4A1F9EE1B300C8DB51 /* DDayData.swift in Sources */,
+				AC394FC91F9F0CD50080CBA9 /* NotificationTimeViewController.swift in Sources */,
+				AC94AC461F9EE14100C8DB51 /* DDayAddViewController.swift in Sources */,
 				AC94AC371F9EDC5400C8DB51 /* EasyD_Day.xcdatamodeld in Sources */,
 				AC94AC2F1F9EDC5400C8DB51 /* AppDelegate.swift in Sources */,
+				AC94AC441F9EDDB600C8DB51 /* DDayViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
