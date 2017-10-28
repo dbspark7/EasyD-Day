@@ -8,21 +8,55 @@
 
 import UIKit
 import CoreData
+import UserNotifications
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
     var ddaylist = [DDayData]() // 디데이 데이터를 저장할 배열 변수
+    //var authorization: Bool?
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        UNUserNotificationCenter.current().requestAuthorization(options: [.alert, .sound/*, .badge*/]) { (granted, error) in
+            /*if granted == false {
+                self.authorization = granted
+            }*/
+        }
+        
         return true
     }
 
     func applicationWillResignActive(_ application: UIApplication) {
         // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
         // Use this method to pause ongoing tasks, disable timers, and invalidate graphics rendering callbacks. Games should use this method to pause the game.
+        
+        // 알림 설정 내용을 확인
+        /*UNUserNotificationCenter.current().getNotificationSettings { (settings) in
+            guard settings.authorizationStatus == .denied else {
+                print("Can't Schedule")
+                return
+            }
+        }
+        
+        // 알림 콘텐츠 객체
+        let nContent = UNMutableNotificationContent()
+        
+        nContent.badge = 1
+        nContent.body = "그날이다!!!"
+        nContent.title = "D-Day"
+        nContent.sound = UNNotificationSound.default()
+        
+        // 알림 발송 조건 객체
+        let trigger = UNTimeIntervalNotificationTrigger(timeInterval: 5, repeats: false)
+        
+        // 알림 요청 객체
+        let request = UNNotificationRequest(identifier: "dday", content: nContent, trigger: trigger)
+        
+        // 노티피케이션 센터에 추가
+        UNUserNotificationCenter.current().add(request)*/
     }
 
     func applicationDidEnterBackground(_ application: UIApplication) {
