@@ -160,6 +160,11 @@
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" title="D-Day 추가" id="jbp-5K-RnY">
+                        <barButtonItem key="leftBarButtonItem" systemItem="cancel" id="IOu-Rc-xfp">
+                            <connections>
+                                <segue destination="6c5-c1-kWm" kind="unwind" unwindAction="backToList:" id="yWN-eu-PWP"/>
+                            </connections>
+                        </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" systemItem="save" id="WFq-ZU-QqE">
                             <connections>
                                 <action selector="save:" destination="xWO-Jd-yuv" id="Jc1-HH-DBW"/>
@@ -174,6 +179,7 @@
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5Av-jh-aQw" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="6c5-c1-kWm" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="1093.5999999999999" y="-25.637181409295355"/>
         </scene>
