@@ -11,6 +11,9 @@ import UIKit
 class DDayCell: UITableViewCell {
     
     @IBOutlet weak var dday: UILabel!
-    @IBOutlet weak var content: UILabel!
-    @IBOutlet weak var notification: UILabel!
+    @IBOutlet weak var ddayTitle: UILabel!
+    @IBOutlet weak var notificationTime: UILabel!
+    @IBOutlet weak var notificationImage: UIImageView!
+    @IBOutlet weak var ddayImage: UIImageView!
+    
 }
