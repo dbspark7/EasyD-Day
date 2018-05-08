@@ -6,13 +6,19 @@
 //  Copyright © 2017년 dbspark7. All rights reserved.
 //
 
-import Foundation
+import UIKit
+import CoreData
 
 class DDayData {
     
-    var date: Date? // 디데이 날짜
-    var message: String? // 메세지 내용
-    var timeAlert: Date? // 알림 시각
-    var alertIsOn: Bool? // 알림 사용 여부
+    var order: Int16? // 순서
+    var identifier: String? // ID
+    var ddayDate: Date? // 디데이 날짜
+    var ddayTitle: String? // 제목
+    var notificationTime: Date? // 알림 시각
+    var imageExistance: Bool? // 이미지 존재 여부
+    
+    // 원본 DDayMO 객체를 참조하기 위한 속성
+    var objectID: NSManagedObjectID?
     
 }
