@@ -11,10 +11,10 @@ import UserNotifications
 
 class DDayAddVC: UITableViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate {
     
-    @IBOutlet weak var ddayDate: UILabel!
-    @IBOutlet weak var ddayTitle: UILabel!
-    @IBOutlet weak var notificationTime: UILabel!
-    @IBOutlet weak var ddayImage: UIImageView!
+    @IBOutlet var ddayDate: UILabel!
+    @IBOutlet var ddayTitle: UILabel!
+    @IBOutlet var notificationTime: UILabel!
+    @IBOutlet var ddayImage: UIImageView!
     
     private lazy var dao = DDayDAO()
     

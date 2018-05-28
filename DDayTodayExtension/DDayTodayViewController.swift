@@ -11,8 +11,8 @@ import NotificationCenter
 
 class DDayTodayViewController: UIViewController, NCWidgetProviding {
     
-    @IBOutlet weak var dday: UILabel!
-    @IBOutlet weak var ddayTitle: UILabel!
+    @IBOutlet var dday: UILabel!
+    @IBOutlet var ddayTitle: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()

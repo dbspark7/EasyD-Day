@@ -12,8 +12,8 @@ import GoogleMobileAds
 
 class DDayListVC: UIViewController, UITableViewDelegate, UITableViewDataSource, UISearchBarDelegate, GADBannerViewDelegate {
     
-    @IBOutlet weak var tableView: UITableView!
-    @IBOutlet weak var searchBar: UISearchBar!
+    @IBOutlet var tableView: UITableView!
+    @IBOutlet var searchBar: UISearchBar!
     
     private let appDelegate = UIApplication.shared.delegate as! AppDelegate
     

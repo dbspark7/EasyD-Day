@@ -10,10 +10,10 @@ import UIKit
 
 class DDayCell: UITableViewCell {
     
-    @IBOutlet weak var dday: UILabel!
-    @IBOutlet weak var ddayTitle: UILabel!
-    @IBOutlet weak var notificationTime: UILabel!
-    @IBOutlet weak var notificationImage: UIImageView!
-    @IBOutlet weak var ddayImage: UIImageView!
+    @IBOutlet var dday: UILabel!
+    @IBOutlet var ddayTitle: UILabel!
+    @IBOutlet var notificationTime: UILabel!
+    @IBOutlet var notificationImage: UIImageView!
+    @IBOutlet var ddayImage: UIImageView!
     
 }

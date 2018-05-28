@@ -208,10 +208,9 @@
 				AC4FCB741FA6AEFE008E41DB /* EasyD-Day.entitlements */,
 				AC94AC2E1F9EDC5400C8DB51 /* AppDelegate.swift */,
 				AC1DE98C2016D67E0017412E /* Utils.swift */,
-				AC7D5FF22013211A00F5EA93 /* CoreDataStack.swift */,
-				AC9DA3401FA4233F0020F039 /* DDayDAO.swift */,
-				AC94AC491F9EE1B300C8DB51 /* DDayData.swift */,
 				AC0A40EB201B3B650082A3F1 /* Tutorial */,
+				ACA9FF3B20BBD9C700A096D7 /* DataAccessObject */,
+				ACA9FF3A20BBD9A600A096D7 /* ValueObject */,
 				AC0A40EC201B3B8F0082A3F1 /* ViewController */,
 				AC0A40EA201B39350082A3F1 /* Storyboard */,
 				AC94AC381F9EDC5400C8DB51 /* Assets.xcassets */,
@@ -230,6 +229,23 @@
 				48D6527C4DB3D11E9D4636FB /* Pods_EasyD_Day.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ACA9FF3A20BBD9A600A096D7 /* ValueObject */ = {
+			isa = PBXGroup;
+			children = (
+				AC94AC491F9EE1B300C8DB51 /* DDayData.swift */,
+			);
+			path = ValueObject;
+			sourceTree = "<group>";
+		};
+		ACA9FF3B20BBD9C700A096D7 /* DataAccessObject */ = {
+			isa = PBXGroup;
+			children = (
+				AC7D5FF22013211A00F5EA93 /* CoreDataStack.swift */,
+				AC9DA3401FA4233F0020F039 /* DDayDAO.swift */,
+			);
+			path = DataAccessObject;
 			sourceTree = "<group>";
 		};
 		D66756708386F1A48F783A2E /* Pods */ = {

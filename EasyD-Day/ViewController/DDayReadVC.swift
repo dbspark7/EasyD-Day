@@ -12,11 +12,11 @@ class DDayReadVC: UIViewController {
     
     var param: DDayData?
     
-    @IBOutlet weak var dday: UILabel!
-    @IBOutlet weak var ddayTitle: UILabel!
-    @IBOutlet weak var ddayDate: UILabel!
-    @IBOutlet weak var notificationTime: UILabel!
-    @IBOutlet weak var ddayImage: UIImageView!
+    @IBOutlet var dday: UILabel!
+    @IBOutlet var ddayTitle: UILabel!
+    @IBOutlet var ddayDate: UILabel!
+    @IBOutlet var notificationTime: UILabel!
+    @IBOutlet var ddayImage: UIImageView!
     
     override func viewDidLoad() {
         // 디데이

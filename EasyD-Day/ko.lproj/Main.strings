@@ -1,0 +1,21 @@
+
+/* Class = "UILabel"; text = "알림 없음"; ObjectID = "30I-Yt-4jy"; */
+"30I-Yt-4jy.text" = "알림 없음";
+
+/* Class = "UILabel"; text = "D-69"; ObjectID = "56t-iw-XWc"; */
+"56t-iw-XWc.text" = "D-69";
+
+/* Class = "UINavigationItem"; title = "D-Day 추가"; ObjectID = "jbp-5K-RnY"; */
+"jbp-5K-RnY.title" = "D-Day 추가";
+
+/* Class = "UILabel"; text = "메세지를 입력하세요."; ObjectID = "kXo-BR-dqA"; */
+"kXo-BR-dqA.text" = "메세지를 입력하세요.";
+
+/* Class = "UILabel"; text = "35살"; ObjectID = "lH2-XJ-W2c"; */
+"lH2-XJ-W2c.text" = "35살";
+
+/* Class = "UILabel"; text = "2018.01.01 09:00에 알림"; ObjectID = "ptj-0F-xhn"; */
+"ptj-0F-xhn.text" = "2018.01.01 09:00에 알림";
+
+/* Class = "UINavigationItem"; title = "D-Day"; ObjectID = "w00-dV-LQE"; */
+"w00-dV-LQE.title" = "D-Day";
