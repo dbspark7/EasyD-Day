@@ -82,6 +82,7 @@ class DDayDAO: UIViewController {
         do {
             try self.coreDataStack.saveChanges()
         } catch let e as NSError {
+            self.coreDataStack.rollbackChanges()
             NSLog("An error has occurred : %s", e.localizedDescription)
             self.warningAlert("데이터 저장 실패") { () -> Void in
                 self.navigationController?.popViewController(animated: true)
@@ -135,6 +136,7 @@ class DDayDAO: UIViewController {
             try self.coreDataStack.saveChanges()
             return true
         } catch let e as NSError {
+            self.coreDataStack.rollbackChanges()
             NSLog("An error has occurred : %s", e.localizedDescription)
             return false
         }
