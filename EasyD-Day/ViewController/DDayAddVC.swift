@@ -30,7 +30,7 @@ class DDayAddVC: UITableViewController, UIImagePickerControllerDelegate, UINavig
         case 1:
             self.setDDayTitle() // 제목 설정
         case 2:
-            self.checkAuthorization()
+            self.checkAuthorization() // 권한 체크
             self.setNotificationTime() // 알림 설정
         case 3:
             self.pick(()) // 이미지 설정
