@@ -12,12 +12,16 @@
 		AC1DE98A2016C9740017412E /* GoogleMobileAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC1DE9892016C9740017412E /* GoogleMobileAds.framework */; };
 		AC1DE98D2016D67E0017412E /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1DE98C2016D67E0017412E /* Utils.swift */; };
 		AC27A1A2201740F3000CBD7F /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1DE98C2016D67E0017412E /* Utils.swift */; };
+		AC2B253C213E04A200690B2C /* libfinger.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AC2B253A213E04A200690B2C /* libfinger.a */; };
+		AC2B255C213E268A00690B2C /* CustomAlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2B255B213E268A00690B2C /* CustomAlertController.swift */; };
+		AC2B255E213EB68500690B2C /* SelectTodayExtensionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2B255D213EB68500690B2C /* SelectTodayExtensionVC.swift */; };
+		AC2B2561213EBB8200690B2C /* SelectTodayExtensionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2B2560213EBB8200690B2C /* SelectTodayExtensionCell.swift */; };
 		AC394FC91F9F0CD50080CBA9 /* NotificationTimeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC394FC81F9F0CD50080CBA9 /* NotificationTimeVC.swift */; };
 		AC48C81A2011F73B003E9067 /* DDayTodayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC48C8192011F73B003E9067 /* DDayTodayViewController.swift */; };
 		AC48C81D2011F73B003E9067 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC48C81B2011F73B003E9067 /* MainInterface.storyboard */; };
 		AC48C82A2011F8B8003E9067 /* DDayDAO.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9DA3401FA4233F0020F039 /* DDayDAO.swift */; };
-		AC53E85320264AD000863443 /* EasyD-Day.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AC53E85120264AD000863443 /* EasyD-Day.xcdatamodeld */; };
-		AC53E85420264AD000863443 /* EasyD-Day.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AC53E85120264AD000863443 /* EasyD-Day.xcdatamodeld */; };
+		AC53E85320264AD000863443 /* EasyD-Day1.1.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AC53E85120264AD000863443 /* EasyD-Day1.1.xcdatamodeld */; };
+		AC53E85420264AD000863443 /* EasyD-Day1.1.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AC53E85120264AD000863443 /* EasyD-Day1.1.xcdatamodeld */; };
 		AC53E85620264F8D00863443 /* DDayTodayExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = AC48C8162011F73B003E9067 /* DDayTodayExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		AC53E8572026504400863443 /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC9DA3481FA43A070020F039 /* NotificationCenter.framework */; };
 		AC64913B2025F634005CB02E /* Pods_EasyD_Day.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48D6527C4DB3D11E9D4636FB /* Pods_EasyD_Day.framework */; };
@@ -73,6 +77,11 @@
 		AC1216EA2011767F00DF7459 /* LogVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogVC.swift; sourceTree = "<group>"; };
 		AC1DE9892016C9740017412E /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMobileAds.framework; path = "GoogleMobileAdsSdkiOS-7.27.0/GoogleMobileAds.framework"; sourceTree = "<group>"; };
 		AC1DE98C2016D67E0017412E /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		AC2B253A213E04A200690B2C /* libfinger.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libfinger.a; sourceTree = "<group>"; };
+		AC2B253B213E04A200690B2C /* finger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = finger.h; sourceTree = "<group>"; };
+		AC2B255B213E268A00690B2C /* CustomAlertController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomAlertController.swift; sourceTree = "<group>"; };
+		AC2B255D213EB68500690B2C /* SelectTodayExtensionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectTodayExtensionVC.swift; sourceTree = "<group>"; };
+		AC2B2560213EBB8200690B2C /* SelectTodayExtensionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectTodayExtensionCell.swift; sourceTree = "<group>"; };
 		AC394FC81F9F0CD50080CBA9 /* NotificationTimeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationTimeVC.swift; sourceTree = "<group>"; };
 		AC48C8162011F73B003E9067 /* DDayTodayExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = DDayTodayExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC48C8192011F73B003E9067 /* DDayTodayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DDayTodayViewController.swift; sourceTree = "<group>"; };
@@ -121,22 +130,13 @@
 			files = (
 				AC1DE98A2016C9740017412E /* GoogleMobileAds.framework in Frameworks */,
 				E582F59C0D8606BBF44F1C64 /* Pods_EasyD_Day.framework in Frameworks */,
+				AC2B253C213E04A200690B2C /* libfinger.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		AC0A40EA201B39350082A3F1 /* Storyboard */ = {
-			isa = PBXGroup;
-			children = (
-				AC94AC3A1F9EDC5400C8DB51 /* LaunchScreen.storyboard */,
-				ACCE24DE201AEA3E00AC31E8 /* Tutorial.storyboard */,
-				AC94AC321F9EDC5400C8DB51 /* Main.storyboard */,
-			);
-			path = Storyboard;
-			sourceTree = "<group>";
-		};
 		AC0A40EB201B3B650082A3F1 /* Tutorial */ = {
 			isa = PBXGroup;
 			children = (
@@ -146,25 +146,66 @@
 			path = Tutorial;
 			sourceTree = "<group>";
 		};
-		AC0A40EC201B3B8F0082A3F1 /* ViewController */ = {
+		AC2B2534213DF75300690B2C /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				AC94AC491F9EE1B300C8DB51 /* DDayData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AC2B2535213DF75C00690B2C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AC94AC3A1F9EDC5400C8DB51 /* LaunchScreen.storyboard */,
+				ACCE24DE201AEA3E00AC31E8 /* Tutorial.storyboard */,
+				AC94AC321F9EDC5400C8DB51 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		AC2B2536213DF76300690B2C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				ACA9FF3B20BBD9C700A096D7 /* DataAccessObject */,
+				AC0A40EB201B3B650082A3F1 /* Tutorial */,
 				AC94AC431F9EDDB600C8DB51 /* DDayListVC.swift */,
+				AC94AC471F9EE1A800C8DB51 /* DDayCell.swift */,
 				AC94AC451F9EE14100C8DB51 /* DDayAddVC.swift */,
 				AC7EA520200DC57A007E8408 /* DDayReadVC.swift */,
-				AC94AC471F9EE1A800C8DB51 /* DDayCell.swift */,
 				ACA43273200D819000DEBA77 /* DatePickerVC.swift */,
 				AC394FC81F9F0CD50080CBA9 /* NotificationTimeVC.swift */,
 				AC1216EA2011767F00DF7459 /* LogVC.swift */,
+				AC2B255B213E268A00690B2C /* CustomAlertController.swift */,
+				AC2B255D213EB68500690B2C /* SelectTodayExtensionVC.swift */,
+				AC2B2560213EBB8200690B2C /* SelectTodayExtensionCell.swift */,
 			);
-			path = ViewController;
+			path = Controller;
 			sourceTree = "<group>";
 		};
-		AC1216EC20119ED000DF7459 /* Resources */ = {
+		AC2B2537213DF76D00690B2C /* Library */ = {
 			isa = PBXGroup;
 			children = (
+				AC2B2539213DFEBF00690B2C /* FingerPush */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		AC2B2538213DFE3A00690B2C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				AC94AC381F9EDC5400C8DB51 /* Assets.xcassets */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		AC2B2539213DFEBF00690B2C /* FingerPush */ = {
+			isa = PBXGroup;
+			children = (
+				AC2B253B213E04A200690B2C /* finger.h */,
+				AC2B253A213E04A200690B2C /* libfinger.a */,
+			);
+			path = FingerPush;
 			sourceTree = "<group>";
 		};
 		AC48C8182011F73B003E9067 /* DDayTodayExtension */ = {
@@ -183,7 +224,6 @@
 		AC94AC221F9EDC5400C8DB51 = {
 			isa = PBXGroup;
 			children = (
-				AC1216EC20119ED000DF7459 /* Resources */,
 				AC94AC2D1F9EDC5400C8DB51 /* EasyD-Day */,
 				AC48C8182011F73B003E9067 /* DDayTodayExtension */,
 				AC9DA3471FA43A070020F039 /* Frameworks */,
@@ -204,16 +244,15 @@
 		AC94AC2D1F9EDC5400C8DB51 /* EasyD-Day */ = {
 			isa = PBXGroup;
 			children = (
-				AC53E85120264AD000863443 /* EasyD-Day.xcdatamodeld */,
+				AC2B2538213DFE3A00690B2C /* Resources */,
+				AC2B2537213DF76D00690B2C /* Library */,
+				AC2B2534213DF75300690B2C /* Model */,
+				AC2B2535213DF75C00690B2C /* View */,
+				AC2B2536213DF76300690B2C /* Controller */,
+				AC53E85120264AD000863443 /* EasyD-Day1.1.xcdatamodeld */,
 				AC4FCB741FA6AEFE008E41DB /* EasyD-Day.entitlements */,
 				AC94AC2E1F9EDC5400C8DB51 /* AppDelegate.swift */,
 				AC1DE98C2016D67E0017412E /* Utils.swift */,
-				AC0A40EB201B3B650082A3F1 /* Tutorial */,
-				ACA9FF3B20BBD9C700A096D7 /* DataAccessObject */,
-				ACA9FF3A20BBD9A600A096D7 /* ValueObject */,
-				AC0A40EC201B3B8F0082A3F1 /* ViewController */,
-				AC0A40EA201B39350082A3F1 /* Storyboard */,
-				AC94AC381F9EDC5400C8DB51 /* Assets.xcassets */,
 				AC94AC3D1F9EDC5400C8DB51 /* Info.plist */,
 				AC6491522025FF8F005CB02E /* GoogleService-Info.plist */,
 				AC7DA3A820214A7300B2C2DA /* EasyD-Day-Bridging-Header.h */,
@@ -229,14 +268,6 @@
 				48D6527C4DB3D11E9D4636FB /* Pods_EasyD_Day.framework */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		ACA9FF3A20BBD9A600A096D7 /* ValueObject */ = {
-			isa = PBXGroup;
-			children = (
-				AC94AC491F9EE1B300C8DB51 /* DDayData.swift */,
-			);
-			path = ValueObject;
 			sourceTree = "<group>";
 		};
 		ACA9FF3B20BBD9C700A096D7 /* DataAccessObject */ = {
@@ -316,6 +347,9 @@
 							com.apple.ApplicationGroups.iOS = {
 								enabled = 1;
 							};
+							com.apple.Push = {
+								enabled = 0;
+							};
 						};
 					};
 					AC94AC2A1F9EDC5400C8DB51 = {
@@ -324,6 +358,12 @@
 						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Push = {
 								enabled = 1;
 							};
 						};
@@ -438,7 +478,7 @@
 				AC7D5FF32013211A00F5EA93 /* CoreDataStack.swift in Sources */,
 				AC48C81A2011F73B003E9067 /* DDayTodayViewController.swift in Sources */,
 				AC7D5FD32012FDA800F5EA93 /* DDayTodayDAO.swift in Sources */,
-				AC53E85420264AD000863443 /* EasyD-Day.xcdatamodeld in Sources */,
+				AC53E85420264AD000863443 /* EasyD-Day1.1.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -447,6 +487,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AC7EA521200DC57A007E8408 /* DDayReadVC.swift in Sources */,
+				AC2B255E213EB68500690B2C /* SelectTodayExtensionVC.swift in Sources */,
 				AC94AC481F9EE1A800C8DB51 /* DDayCell.swift in Sources */,
 				AC1216EB2011767F00DF7459 /* LogVC.swift in Sources */,
 				ACA43274200D819000DEBA77 /* DatePickerVC.swift in Sources */,
@@ -454,11 +495,13 @@
 				AC07EE42201583D10024611C /* CoreDataStack.swift in Sources */,
 				AC394FC91F9F0CD50080CBA9 /* NotificationTimeVC.swift in Sources */,
 				ACCE24E1201AEC4300AC31E8 /* TutorialContentsVC.swift in Sources */,
-				AC53E85320264AD000863443 /* EasyD-Day.xcdatamodeld in Sources */,
+				AC53E85320264AD000863443 /* EasyD-Day1.1.xcdatamodeld in Sources */,
 				AC94AC461F9EE14100C8DB51 /* DDayAddVC.swift in Sources */,
 				AC94AC2F1F9EDC5400C8DB51 /* AppDelegate.swift in Sources */,
 				AC48C82A2011F8B8003E9067 /* DDayDAO.swift in Sources */,
+				AC2B2561213EBB8200690B2C /* SelectTodayExtensionCell.swift in Sources */,
 				ACCE617D201AED9B00D858A5 /* TutorialMasterVC.swift in Sources */,
+				AC2B255C213E268A00690B2C /* CustomAlertController.swift in Sources */,
 				AC94AC441F9EDDB600C8DB51 /* DDayListVC.swift in Sources */,
 				AC7D5FED20130CC000F5EA93 /* DDayData.swift in Sources */,
 			);
@@ -669,6 +712,10 @@
 				INFOPLIST_FILE = "EasyD-Day/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/EasyD-Day/Library/FingerPush",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "kr.co.ipdisk.dbspark711.EasyD-Day";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "EasyD-Day/EasyD-Day-Bridging-Header.h";
@@ -696,6 +743,10 @@
 				INFOPLIST_FILE = "EasyD-Day/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/EasyD-Day/Library/FingerPush",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "kr.co.ipdisk.dbspark711.EasyD-Day";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "EasyD-Day/EasyD-Day-Bridging-Header.h";
@@ -737,13 +788,13 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		AC53E85120264AD000863443 /* EasyD-Day.xcdatamodeld */ = {
+		AC53E85120264AD000863443 /* EasyD-Day1.1.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
 				AC53E85220264AD000863443 /* EasyD-Day.xcdatamodel */,
 			);
 			currentVersion = AC53E85220264AD000863443 /* EasyD-Day.xcdatamodel */;
-			path = "EasyD-Day.xcdatamodeld";
+			path = "EasyD-Day1.1.xcdatamodeld";
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};

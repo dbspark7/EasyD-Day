@@ -12,7 +12,7 @@ import CoreData
 class DDayTodayDAO {
     // 저장된 D-Day 리스트를 불러오는 메소드
     func fetch() -> DDayTodayData {
-        let coreDataStack = CoreDataStack(modelName: "EasyD-Day")
+        let coreDataStack = CoreDataStack(modelName: "EasyD-Day1.1")
         let data = DDayTodayData()
         
         // 요청 객체 생성
@@ -29,6 +29,14 @@ class DDayTodayDAO {
                 data.ddayDate = record.ddayDate
                 data.ddayTitle = record.ddayTitle
                 break
+            }
+            
+            for record in resultset {
+                if record.isTodayExtensionSelected == true {
+                    data.ddayDate = record.ddayDate
+                    data.ddayTitle = record.ddayTitle
+                    break
+                }
             }
         } catch let e as NSError {
             NSLog("An error has occurred: %s", e.localizedDescription)
