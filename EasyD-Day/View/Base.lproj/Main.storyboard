@@ -283,7 +283,7 @@
                                 </connections>
                             </tableView>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                         <gestureRecognizers/>
                         <constraints>
                             <constraint firstItem="IUK-7I-X9x" firstAttribute="top" secondItem="JSk-Su-2vf" secondAttribute="top" id="HQ0-Ih-GqY"/>

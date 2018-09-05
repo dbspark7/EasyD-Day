@@ -14,7 +14,7 @@ class TutorialMasterVC: UIViewController, UIPageViewControllerDataSource {
     var pageVC: UIPageViewController!
     
     // 콘텐츠 뷰 컨트롤러에 들어갈 타이틀과 이미지
-    private var contentImages = ["Page0", "Page1", "Page2", "Page3", "Page4", "Page5"]
+    private var contentImages = ["Page0", "Page1", "Page2", "Page3", "Page4", "Page5", "Page6"]
     private let ud = UserDefaults.standard
     
     // MARK: - override / protocol Method

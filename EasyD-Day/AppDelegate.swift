@@ -55,7 +55,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UNUserNotificationCenterD
         let pageControl = UIPageControl.appearance()
         pageControl.pageIndicatorTintColor = UIColor.lightGray
         pageControl.currentPageIndicatorTintColor = UIColor.black
-        pageControl.backgroundColor = UIColor.white
+        pageControl.backgroundColor = UIColor(red: 248/255, green: 226/255, blue: 64/255, alpha: 1.0)
         
         // 구글 애드몹
         GADMobileAds.configure(withApplicationID: "ca-app-pub-8516368739403975~5275986417")
