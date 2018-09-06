@@ -22,7 +22,7 @@
                                 <rect key="frame" x="62" y="208" width="250" height="250"/>
                             </imageView>
                         </subviews>
-                        <color key="backgroundColor" red="0.0" green="0.20392156862745098" blue="0.44313725490196076" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.16078431369999999" green="0.47450980390000003" blue="0.74901960779999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="KAU-pb-nMs" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="6wS-IF-FBD"/>

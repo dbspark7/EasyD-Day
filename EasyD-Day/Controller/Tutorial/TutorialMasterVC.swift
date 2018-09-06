@@ -89,6 +89,7 @@ class TutorialMasterVC: UIViewController, UIPageViewControllerDataSource {
         startButton.setTitle("시작하기", for: .normal)
         startButton.titleLabel?.font = UIFont.systemFont(ofSize: 19)
         startButton.frame = CGRect(x: (self.view.frame.width - 66) / 2, y: self.view.frame.height - 55, width: 66, height: 35)
+        startButton.setTitleColor(UIColor.white, for: .normal)
         startButton.addTarget(self, action: #selector(close(_:)), for: .touchUpInside)
         self.view.addSubview(startButton)
         
