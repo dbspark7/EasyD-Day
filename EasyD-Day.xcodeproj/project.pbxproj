@@ -149,6 +149,7 @@
 		AC2B2534213DF75300690B2C /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				ACA9FF3B20BBD9C700A096D7 /* DataAccessObject */,
 				AC94AC491F9EE1B300C8DB51 /* DDayData.swift */,
 			);
 			path = Model;
@@ -167,7 +168,6 @@
 		AC2B2536213DF76300690B2C /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				ACA9FF3B20BBD9C700A096D7 /* DataAccessObject */,
 				AC0A40EB201B3B650082A3F1 /* Tutorial */,
 				AC94AC431F9EDDB600C8DB51 /* DDayListVC.swift */,
 				AC94AC471F9EE1A800C8DB51 /* DDayCell.swift */,
