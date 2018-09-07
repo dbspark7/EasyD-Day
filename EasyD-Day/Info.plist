@@ -32,11 +32,11 @@
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
 	<key>NSCameraUsageDescription</key>
-	<string>YES</string>
+	<string>카메라 사용을 위한 권한 동의가 필요합니다.</string>
 	<key>NSPhotoLibraryAddUsageDescription</key>
-	<string>YES</string>
+	<string>저장된 앨범 사용을 위한 권한 동의가 필요합니다.</string>
 	<key>NSPhotoLibraryUsageDescription</key>
-	<string>YES</string>
+	<string>포토 라이브러리 사용을 위한 권한 동의가 필요합니다.</string>
 	<key>UIBackgroundModes</key>
 	<array>
 		<string>remote-notification</string>

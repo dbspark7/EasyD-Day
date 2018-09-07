@@ -17,7 +17,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UNUserNotificationCenterD
 
     var window: UIWindow?
     var ddaylist = [DDayData]() // 디데이 데이터를 저장할 배열 변수
-    var authorization: Bool? // 알림 승인 정보
+    var authorization: Bool? // 프로모션 승인 정보
     
     // 핑거푸시
     let fingerManager = finger.sharedData()
