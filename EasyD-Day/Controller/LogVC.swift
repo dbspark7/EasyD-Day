@@ -45,7 +45,7 @@ class LogVC: UITableViewController {
         
         let row = self.list[indexPath.row]
         
-        let cell = tableView.dequeueReusableCell(withIdentifier: "logCell") ?? UITableViewCell(style: UITableViewCellStyle.default, reuseIdentifier: "logCell")
+        let cell = tableView.dequeueReusableCell(withIdentifier: "logCell") ?? UITableViewCell(style: UITableViewCell.CellStyle.default, reuseIdentifier: "logCell")
         if let regdate = row.regdate {
             cell.textLabel?.text = "\(regdate)에 \(row.type.toLogType())"
         }

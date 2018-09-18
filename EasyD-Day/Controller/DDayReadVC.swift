@@ -63,7 +63,7 @@ class DDayReadVC: UIViewController {
         let object = coreDataStack.mainQueueContext.object(with: (param?.objectID)!)
         
         let lvc = LogVC()
-        lvc.dday = object as! DDayMO
+        lvc.dday = object as? DDayMO
         
         let alert = CustomAlertController(title: "로그", message: nil, preferredStyle: .alert)
         

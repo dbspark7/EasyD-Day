@@ -51,7 +51,7 @@ class DDayAddVC: UITableViewController, UIImagePickerControllerDelegate, UINavig
         }
     }
     
-    func imgPicker(_ source: UIImagePickerControllerSourceType) {
+    func imgPicker(_ source: UIImagePickerController.SourceType) {
         let picker = UIImagePickerController()
         picker.sourceType = source
         picker.delegate = self
@@ -59,8 +59,11 @@ class DDayAddVC: UITableViewController, UIImagePickerControllerDelegate, UINavig
         self.present(picker, animated: true)
     }
     
-    func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [String : Any]) {
-        if let img = info[UIImagePickerControllerEditedImage] as? UIImage {
+    func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : Any]) {
+// Local variable inserted by Swift 4.2 migrator.
+let info = convertFromUIImagePickerControllerInfoKeyDictionary(info)
+
+        if let img = info[convertFromUIImagePickerControllerInfoKey(UIImagePickerController.InfoKey.editedImage)] as? UIImage {
             self.ddayImage.image = img
         }
         picker.dismiss(animated: true)
@@ -109,7 +112,7 @@ class DDayAddVC: UITableViewController, UIImagePickerControllerDelegate, UINavig
             nContent.title = "\(self.calculateDDay(date: inputDDayDate))"
         }
         nContent.body = title
-        nContent.sound = UNNotificationSound.default()
+        nContent.sound = UNNotificationSound.default
         nContent.badge = 1
         
         // 발송 시각을 '지금으로부터 *초 형식'으로 변환
@@ -279,7 +282,7 @@ class DDayAddVC: UITableViewController, UIImagePickerControllerDelegate, UINavig
         
         // D-Day 이미지
         if self.ddayImage.image != nil {
-            self.ud.set(UIImagePNGRepresentation(self.ddayImage.image!), forKey: data.identifier!)
+            self.ud.set(self.ddayImage.image!.pngData(), forKey: data.identifier!)
             self.ud.synchronize()
             
             data.imageExistance = true
@@ -322,4 +325,14 @@ class DDayAddVC: UITableViewController, UIImagePickerControllerDelegate, UINavig
             self.dao.insert(data)
         }
     }
+}
+
+// Helper function inserted by Swift 4.2 migrator.
+fileprivate func convertFromUIImagePickerControllerInfoKeyDictionary(_ input: [UIImagePickerController.InfoKey: Any]) -> [String: Any] {
+	return Dictionary(uniqueKeysWithValues: input.map {key, value in (key.rawValue, value)})
+}
+
+// Helper function inserted by Swift 4.2 migrator.
+fileprivate func convertFromUIImagePickerControllerInfoKey(_ input: UIImagePickerController.InfoKey) -> String {
+	return input.rawValue
 }

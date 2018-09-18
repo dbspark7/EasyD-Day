@@ -28,15 +28,15 @@
 		</dict>
 	</array>
 	<key>CFBundleVersion</key>
-	<string>5</string>
+	<string>6</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
 	<key>NSCameraUsageDescription</key>
-	<string>카메라 사용을 위한 권한 동의가 필요합니다.</string>
+	<string>앱에서 프로필 사진 업로드를 위해 카메라에 액세스 하려고 합니다. 귀하의 사진은 귀하의 허락없이 공유되지 않습니다.</string>
 	<key>NSPhotoLibraryAddUsageDescription</key>
-	<string>저장된 앨범 사용을 위한 권한 동의가 필요합니다.</string>
+	<string>앱에서 프로필 사진 업로드를 위해 사진 갤러리에 액세스 하려고 합니다. 귀하의 사진은 귀하의 허락없이 공유되지 않습니다.</string>
 	<key>NSPhotoLibraryUsageDescription</key>
-	<string>포토 라이브러리 사용을 위한 권한 동의가 필요합니다.</string>
+	<string>앱에서 프로필 사진 업로드를 위해 사진 갤러리에 액세스 하려고 합니다. 귀하의 사진은 귀하의 허락없이 공유되지 않습니다.</string>
 	<key>UIBackgroundModes</key>
 	<array>
 		<string>remote-notification</string>
